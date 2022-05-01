@@ -1,0 +1,18 @@
+
+.rating-stars {
+  display: inline-block;
+}
+
+.rating-stars__item {
+  display: inline-block;
+  color: lightgray;
+}
+
+.rating-stars__item.active,
+.rating-stars:hover .rating-stars__item {
+  color: rgb(255, 213, 0);
+}
+
+.rating-stars__item:hover ~ .rating-stars__item {
+  color: lightgray;
+}
